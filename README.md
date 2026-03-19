@@ -71,6 +71,12 @@ Move to the **IntraJ** directory:
 cd IntraJ
 ```
 
+Add **extendJ** dependency via git submodule.
+```bash
+git submodule init
+git submodule update
+```
+
 To generate all the JARs necessary for the evaluation, execute
 
 ```
